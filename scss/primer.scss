@@ -10,6 +10,8 @@
 // Imports all Primer files in their intended order for easy mass-inclusion.
 // Should you need specific files, you can easily use separate `@import`s.
 
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro);
+
 // Global requirements
 @import "variables";
 @import "mixins";

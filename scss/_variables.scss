@@ -12,10 +12,10 @@ $brand-orange:     #c9510c !default;
 $brand-purple:     #6e5494 !default;
 
 // Font stack
-$body-font: Helvetica, arial, nimbussansl, liberationsans, freesans, clean, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol" !default;
+// $body-font: Helvetica, arial, nimbussansl, liberationsans, freesans, clean, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol" !default;
 
 // The base body size
-$body-font-size: 13px !default;
+// $body-font-size: 13px !default;
 
 // Monospace font stack
 $mono-font: Consolas, "Liberation Mono", Menlo, Courier, monospace !default;
@@ -32,3 +32,24 @@ $status-pending:  #cea61b;
 $repo-private-text: #a1882b;
 $repo-private-bg:   #fff9ea;
 $repo-private-icon: #e9dba5;
+
+/**************************/
+// METRO
+/**************************/
+
+// Font stack
+$body-font: "Source Sans Pro", Calibri, Candara, Arial, sans-serif !default;
+
+// The base body size
+$body-font-size: 14px !default;
+
+$padding  : 10px 18px;
+$border   : 0;
+$bg-color : #fcfcfc;
+
+.markdown-body {
+  font-family: $body-font !important;
+}
+.docs-example {
+  font-size: $body-font-size !important;
+}
